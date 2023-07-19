@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tan Go Away</string>
+    <string name="showPointsButtonText">显示控制点</string>
+    <string name="hidePointsButtonText">隐藏控制点</string>
+    <string name="startButtonText">启动服务</string>
+    <string name="stopButtonText">停止服务</string>
+    <string name="moveButtonText">移动</string>
+    <string name="showWindowButtonText">显示悬浮窗</string>
+    <string name="hideWindowButtonText">隐藏悬浮窗</string>
+    <string name="getAccessibilityPermissionButtonText">获取无障碍权限</string>
+    <string name="getOverlayPermissionButtonText">获取悬浮窗权限</string>
+    <string name="accessibility_service_label">Tan Go Away无障碍服务</string>
+    <string name="accessibility_service_description">Tan Go Away无障碍服务  用于模拟触摸和监测屏幕内容</string>
+    <string name="getMediaProjectionButtonText">获取屏幕录制权限</string>
+    <string name="sampleButtonText">颜色取样</string>
+    <string name="locationSampleButtonText">位置取样</string>
+</resources>
