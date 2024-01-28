@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                 dm.widthPixels, dm.heightPixels, dm.densityDpi,
                 DisplayManager.VIRTUAL_DISPLAY_FLAG_AUTO_MIRROR,
                 imageReader.getSurface(), null, null);
-        GBData.reader = imageReader;
+        ScreenReader.reader = imageReader;
     }
 
     public static boolean isAccessibilitySettingsOn(Context context, String className) {

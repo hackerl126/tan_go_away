@@ -86,7 +86,7 @@ public class FloatingPoint {
             return;
         }
         pointLayout.getLocationOnScreen(location);
-        targetColor = GBData.getColor(location[0],location[1]);
+        targetColor = ScreenReader.getColor(location[0],location[1]);
         touchThread.updateTargetColor(targetColor);
         colorSampled = true;
     }

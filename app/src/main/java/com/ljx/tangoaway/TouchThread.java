@@ -1,7 +1,5 @@
 package com.ljx.tangoaway;
 
-import android.util.Log;
-
 public class TouchThread implements Runnable{
     private final Object lock;
     private boolean locked = false;
@@ -29,7 +27,7 @@ public class TouchThread implements Runnable{
                 locked = false;
 
                 pointLayout.getLocationOnScreen(location);
-                int color = GBData.getColor(location[0],location[1]);
+                int color = ScreenReader.getColor(location[0],location[1]);
 
                 if(color <= targetColor + 1000 && color >= targetColor - 1000) {
                     touchTool.touch(targetLocation[0],targetLocation[1]);

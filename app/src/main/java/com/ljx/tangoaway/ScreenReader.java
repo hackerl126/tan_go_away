@@ -7,8 +7,8 @@ import android.util.Log;
 
 import java.nio.ByteBuffer;
 
-public class GBData {
-    private static final String TAG = "GBData";
+public class ScreenReader {
+    private static final String TAG = "ScreenReader";
     static ImageReader reader;
     private static Bitmap bitmap;
 
